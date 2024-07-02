@@ -1,0 +1,6 @@
+resource_group_name = "netapp-rg01"
+location            = "swedencentral"
+vnet_name           = "netapp-vnet01"
+subnet_name         = "netapp-subnet01"
+route_table_name    = "netapp-routetable01"
+route_name          = "netapp-route01"
