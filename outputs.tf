@@ -1,11 +1,19 @@
-output "netapp_account_id" {
-  value = azurerm_netapp_account.netapp_account.id
+output "vnet_id" {
+  value = azurerm_virtual_network.my_vnet.id
 }
 
-output "netapp_pool_id" {
-  value = azurerm_netapp_pool.netapp_pool.id
+output "subnet_id" {
+  value = azurerm_subnet.my_subnet.id
 }
 
-output "netapp_volume_id" {
-  value = azurerm_netapp_volume.netapp_volume.id
+output "route_table_id" {
+  value = azurerm_route_table.my_route_table.id
+}
+
+output "route_id" {
+  value = azurerm_route.my_route.id
+}
+
+output "route_table_association_id" {
+  value = azurerm_subnet_route_table_association.my_route_table_association.id
 }
