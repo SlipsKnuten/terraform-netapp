@@ -1,0 +1,10 @@
+resource_group_name      = "netapp-rg01"
+location                 = "swedencentral"
+vnet_name                = "netapp-vnet01"
+subnet_name              = "netapp-subnet01"
+route_table_name         = "netapp-routetable01"
+route_name               = "netapp-route01"
+netapp_pool_name         = "netapp-pool01"
+netapp_volume_name       = "netapp-volume01"
+netapp_capacity_pool_size = 4 # 4TiB in bytes
+netapp_volume_size       = 100 # 100GiB in bytes
