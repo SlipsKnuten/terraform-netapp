@@ -1,6 +1,0 @@
-resource_group_name = "myResourceGroup"
-location            = "East US"
-vnet_name           = "myVNet"
-subnet_name         = "mySubnet"
-route_table_name    = "myRouteTable"
-route_name          = "myRoute"
